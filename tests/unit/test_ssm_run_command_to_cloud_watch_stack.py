@@ -1,7 +1,7 @@
 import aws_cdk as core
 import aws_cdk.assertions as assertions
 
-from ssm_run_command_to_cloud_watch.ssm_run_command_to_cloud_watch_stack import SsmRunCommandToCloudWatchStack
+from _stacks.ssm_run_command_to_cloud_watch_stack import SsmRunCommandToCloudWatchStack
 
 # example tests. To run these tests, uncomment this file along with the example
 # resource in ssm_run_command_to_cloud_watch/ssm_run_command_to_cloud_watch_stack.py
